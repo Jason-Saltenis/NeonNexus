@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="ParameterPreset" id="{92a73c50-6ad6-4045-b1be-11e82ed8323e}">
+		<property name="name">
+			<value>PhaseFade</value>
+		</property>
+		<relationship name="folder">
+			<destination>{1fe3472f-553b-4a54-976e-510d10293c10}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{12b29bb1-75b8-4f07-a091-5ff199a8400e}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{12b29bb1-75b8-4f07-a091-5ff199a8400e}">
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+		<relationship name="automators">
+			<destination>{eb2c8aff-f5f8-41cf-a8d9-8375d3825796}</destination>
+		</relationship>
+	</object>
+	<object class="Automator" id="{eb2c8aff-f5f8-41cf-a8d9-8375d3825796}">
+		<property name="nameOfPropertyBeingAutomated">
+			<value>cursorPosition</value>
+		</property>
+	</object>
+</objects>
